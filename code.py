@@ -1,5 +1,5 @@
 pip install requests python-docx openpyxl matplotlib
-
+python report.py --url http://localhost:9000 --token sqp_12e84474013fed75b549337d7436814be721b6b4 --project Acig-tech --org ACIG --app "ACIG Tech Web Application" --author "Shivam Dwivedi" --reviewer "Shivam Dwivedi" --designation "Cybersecurity Consultant" --environment PROD --out .\vapt_output
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
